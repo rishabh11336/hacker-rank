@@ -1,0 +1,7 @@
+a = int(input())
+b = input().split()
+c= int(input())
+d = input().split()
+b = set([int(i) for i in b])
+d = set([int(i) for i in d])
+print(len(b.union(d)))
